@@ -2,6 +2,13 @@
 Clase 1
 git init (proyecto con git)
 git --help (todos los comandos)
-Clase 2
 
+Clase 2
+git status (estado de archivos modificados)
+git add nameArchivo otroArchivo ... (pasamos a estado Staged)
+git add . (todo arch modificado pasa a Staged)
+git restore --staged nameArchivo (eliminar de estado Staged)
+git commit -m "mensaje"(para hacer commit)
+git log (ver todo repo)
+git log --help (buscar comando, algo especifico de repo)
 Clase 3

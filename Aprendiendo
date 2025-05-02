@@ -1,10 +1,16 @@
 
 Clase 1
 -Git .- Es un control de versiones
- .repositorio = carpeta donde se almacena las versiones de un proyect
-           repo local repo remoto
+-Repositorio = carpeta donde se almacena las versiones de un proyect:
+           repo local-repo remoto
 
 Clase 2
+-Estados en Git:
+     Modified (archivo modificado), 
+     Staged   (confirmacion cambios guardado, preparado para repositorio local), 
+     Commited (comentario y listo esta en repo.Local)
+HEMOS HECHO UN COMMIT=fotoDeCambio(s)     
+-
 
 
 Clase 3
