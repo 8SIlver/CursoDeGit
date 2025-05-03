@@ -9,8 +9,14 @@ Clase 2
      Modified (archivo modificado), 
      Staged   (confirmacion cambios guardado, preparado para repositorio local), 
      Commited (comentario y listo esta en repo.Local)
-HEMOS HECHO UN COMMIT=fotoDeCambio(s)     
--
+     finalmente hemos hecho un COMMIT=fotoDeCambio(s)     
+(-el archivo esta traqueado = se le esta haciedno seguimiento de modificaciones)
+ 
+ -HEAD .- Donde estas en un mapa, solo puedes estar en uno, y ese es head=cabeza=estasAqui,
+          es un puntero
+ -Rama .- Divide una rama y la copia, se usa para avanzar en otra cosa y esto lo hace no lineal, esto da     paso al desarrollo colaborativo, trabajan en ramas y al finalizar se unen al main  
+  
+
 
 
 Clase 3
