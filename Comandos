@@ -31,3 +31,5 @@ git rebase (similar al merge,pero trae cambios eliminaAnteriores commits y vuelv
 git diff (para ver un conflictos)
 
 Clase 4
+git remote add origin enlaceRepoRemoto (sincronizar un repoLocal a uno remoto, puede ser alReves)
+git remote (muestra el nameRepoRemoto)

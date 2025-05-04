@@ -2,7 +2,7 @@
 Clase 1
 -Git .- Es un control de versiones
 -Repositorio = carpeta donde se almacena las versiones de un proyect:
-           repo local-repo remoto
+           repoLocal - repoRemoto
 
 Clase 2
 -Estados en Git:
@@ -24,5 +24,12 @@ puede haber conflictos, en general sucede cuando estas trabajando en un mismo ar
                                          IMAGEN                      
 
 Clase 4
+GitHub .- Software en la nube que esta integrado con git. Se utiliza para gestionar, trabajar colaborativamente, entre otras; con  repositorios de Git.
+
+                                         IMAGEN
+
+Repositorios remotos .- Repos hospedados en un servidor, punto de sincronizacion de repos locales    
+Observacion: Un repoLocal puede enlazarse a varios reposRemotos     
+Llave SSH = firma .- Se usa para autentificarse de forma segura, entre tu compu y un servidor, evita escribir usuario y contrasña cada vez, es muy segura.                  
 
 
