@@ -30,3 +30,4 @@ git branch -a (para ver todas las ramas incluso las de la nube)
 git rebase (similar al merge,pero trae cambios eliminaAnteriores commits y vuelve en uno)
 git diff (para ver un conflictos)
 
+Clase 4
