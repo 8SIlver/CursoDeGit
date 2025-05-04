@@ -13,9 +13,15 @@ Clase 2
  (archivo traqueado = se le esta haciendo seguimiento de modificaciones)
  -HEAD .- Donde estas en un mapa, solo puedes estar en uno, y ese es head=cabeza=estasAqui,
           es un puntero
- -Rama .- Divide una rama y la copia, se usa para avanzar en otra cosa y esto lo hace no lineal, esto da 
-          paso al desarrollo colaborativo, trabajan en ramas y al finalizar se unen al main  
+ -Rama .-  Es un camino paralelo del codigo, es un puntero, se usa para avanzar en otra cosa y esto lo hace no   lineal, esto da paso al desarrollo colaborativo, trabajan en ramas y al finalizar se unen al main  
+ Ojo: Una rama es un puntero que apunta a un commit.
   
 Clase 3
-Fusionar ramas .- Canbios realizados en una rama se integran en otra, 
-(fusionar ramas = fasforward)
+(fast-forward = fusionar ramas,mueve puntero de la que estamos a la rama que estamos mergeando)
+Fusionar ramas .- Dos ramas se comparan linea por linea y se unen,y se genera un commit automatico,
+puede haber conflictos, en general sucede cuando estas trabajando en un mismo archivo. Tambien se puede eliminar una rama.
+
+                                         IMAGEN                      
+
+
+
