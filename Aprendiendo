@@ -30,6 +30,11 @@ GitHub .- Software en la nube que esta integrado con git. Se utiliza para gestio
 
 Repositorios remotos .- Repos hospedados en un servidor, punto de sincronizacion de repos locales    
 Observacion: Un repoLocal puede enlazarse a varios reposRemotos     
-Llave SSH = firma .- Se usa para autentificarse de forma segura, entre tu compu y un servidor, evita escribir usuario y contrasña cada vez, es muy segura.                  
+Llave SSH = firma .- Se usa para autentificarse de forma segura, entre tu compu y un servidor, evita escribir usuario y contrasña cada vez, es muy segura.   
 
+Clonar un Repositorio .- Podemos descargar un repo remoto a nuestro escritorio
+Escribir en un repoRemoto .- Podemos trabajar localmente y subir un commit al repoRemoto 
+Crear ramaRemota .- Hacemos una rama local y luego la subimos a la RepoRemota
+Eliminar ramasRemota .- se lo puede hacer desde gitHub, actualizar/eliminar la referencia que hay en Repolocal de que aun existe dicha rama
+Traer cambios de repoRemoto a local .- es util con trabajo colaborativo ya que traes cambios que alguien a subido
 
