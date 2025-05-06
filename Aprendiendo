@@ -40,3 +40,12 @@ Observacion: Un repoLocal puede enlazarse a varios reposRemotos
   *PullRequest/PR .- Solicitud para fusionar una rama con otra en un repo, en gitHub en este caso, y alguien revisa el codigo antes de integrarlo. Esto puedes hacerlo desde gitHub por facilidad.
 Observacion: Tanto el push como el pull puenden dar conflictos, similare a cuando hacemos merge..., porque en si son como fusiones pero en repoRemotos 
 
+Clase 5
+Git Flow .- Para trabajo colaborativo develoved , funsiona con ramas especializadas para cada cosa, 
+
+Ship fusiona a rama main sin revision 
+Show revision antes de fusionar algo colaborativo
+Ask 
+
+Regla
+personas antes que procesos 
