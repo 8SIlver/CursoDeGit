@@ -46,8 +46,11 @@ git remote -v (para saber alias y url de ReposRemotos)
 git switch nameRamaRemota (para movernos a ramaRemota)
 
 Clase 5 
+Todo lo visto se pude hacer en la interfaz de gitHub
 
-Clase 6 
+Clase 6
+
+Clase 7 
 git revase 
 git reset codCommit (para resetear un commit)
 git reset --soft codCommit (borra commit pero mantine los cambios)
