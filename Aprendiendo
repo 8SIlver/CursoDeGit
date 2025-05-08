@@ -49,3 +49,14 @@ Ask
 
 Regla
 personas antes que procesos 
+
+Clase 6
+Desace cambios .- Cuando hacemos esto, queremos RETROCEDER recuperar datos algo que no deia ser asi...
+
+comados destructivos=no afecta a los comits, y noDestructivos=afecta alos commits,  cual usar depend de vos
+git revase se usa para esto.
+
+
+Comandos para desacer
+git reset destructivo
+git revert no destrucctivo
