@@ -54,11 +54,20 @@ Clase 5
     Ask  .- Hace Discusion/feedback/P.R.,antes de fusionar.
 
 Clase 6 
--Buenas practicas en git .-
+-Buenas practicas en git .- Es un estandar y es importante cuando trabajas en equipo
+1. cada cuanto hacer un commit, pues a menudo,que sea modular sigue la idea rastros coon migas de pan 
+                                           imagen 
+2. Escribe buenos commits .- Usa verbo imperativo, escribe en minuscula!, se claro/conciso/preciso, no uses reglas de puntuacion, que sea modular, usa preficos como: feat, fix, perf, build, ci, docs, refactor, style, test, segun el que estes haciendo...                                          
+3. Escribe un buen nombre de rama .- Dicho nombre debe estar relacionado con lo que se esta haciendo en la rama y de ser claro/consistente, usa IDs de JIRA u otro...
+Conclusion: Git es commits y ramas entonces debes manejar buenas practicas en commits y ramas
 
 Clase 7
-Desacer cambios .- Cuando hacemos esto, queremos RETROCEDER recuperar datos algo que no deia ser asi...
-comados destructivos=no afecta a los comits, y noDestructivos=afecta alos commits,  cual usar depend de vos
+Desacer cambios .- Cuando queremos Volver Atraz por un error, u otros.
+
+*Comados destructivos, afecta a los comits.
+*No destructivos, no afecta historial de los commits.
+
+
 git revase se usa para esto.
 
 
