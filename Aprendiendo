@@ -38,5 +38,30 @@ Observacion: Un repoLocal puede enlazarse a varios reposRemotos
   Eliminar ramasRemota .- se lo puede hacer desde gitHub, actualizar/eliminar la referencia que hay en Repolocal de que aun existe dicha rama
   *Traer cambios de repoRemoto a local .- Util en trabajo colaborativo ya que traes cambios que alguien a subido Pull=Jalar.
   *PullRequest/PR .- Solicitud para fusionar una rama con otra en un repo, en gitHub en este caso, y alguien revisa el codigo antes de integrarlo. Esto puedes hacerlo desde gitHub por facilidad.
-Observacion: Tanto el push como el pull puenden dar conflictos, similare a cuando hacemos merge..., porque en si son como fusiones pero en repoRemotos 
+Observacion: Tanto el push como el pull puenden dar conflictos, similare a cuando hacemos merge..., porque en si son como fusiones pero en repoRemotos.
 
+Clase 5
+-Git Flow .- Estrategia de trabajo de git, define modelo estructurado 'ramas especializadas' para gestionar desarollo de software. Principales ramas: 
+  RamasPrincipales   Main, codigo en produccion.           
+                     Develop, codigo en desarrollo.
+  RamasSoporte       Feature/nombre, Para nuevas funcionalidades.
+                     Release/numero, Preparar una nueva version estable.
+                     Hotfix/nombre,  Para arreglar errores de produccion.
+-GitHub Flow .- Estrategia de trabajo agil pensada para desarrollo continuo y frecuente, alternativa mas simple a git flow, solo tiene ramas de trabajo a integrarase a main por medio de P.R. 
+-Filosofia para toma de desiciones en fusiones: 
+    Ship .- Fusionar sin revision, desicion pequeña,dentro de tu responsabilidad.
+    Show .- Discusion tras fusion, desicion que puede tener impacto, pero no necesita aprobacion.  
+    Ask  .- Hace Discusion/feedback/P.R.,antes de fusionar.
+
+Clase 6 
+-Buenas practicas en git .-
+
+Clase 7
+Desacer cambios .- Cuando hacemos esto, queremos RETROCEDER recuperar datos algo que no deia ser asi...
+comados destructivos=no afecta a los comits, y noDestructivos=afecta alos commits,  cual usar depend de vos
+git revase se usa para esto.
+
+
+Comandos para desacer
+git reset destructivo
+git revert no destrucctivo

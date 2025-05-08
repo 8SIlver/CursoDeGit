@@ -44,3 +44,20 @@ git pull --all (trae todos los cambios de remoto, a su recpectiva rama...)
 git pull origin ramaRemotaTraer (traer cambios de RepoRemoto, antes hacer git fetch)
 git remote -v (para saber alias y url de ReposRemotos)
 git switch nameRamaRemota (para movernos a ramaRemota)
+
+Clase 5 
+Todo lo visto se pude hacer en la interfaz de gitHub
+
+Clase 6
+
+Clase 7 
+git revase 
+git reset codCommit (para resetear un commit)
+git reset --soft codCommit (borra commit pero mantine los cambios)
+git reset (para resetear un commit)
+git retore (descarta cambios)
+
+git revert codCommit ()
+
+git checkout (recueperar codigo que no queria eliminar)
+gi ¡t show (muestra infirmacion un commit )
