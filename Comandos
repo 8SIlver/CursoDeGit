@@ -52,13 +52,11 @@ Clase 6
 NULL (hacer buenos commit y ramas)
 
 Clase 7 
-git revase 
-git reset codCommit (para resetear un commit)
-git reset --soft codCommit (borra commit pero mantine los cambios)
-git reset (para resetear un commit)
-git retore (descarta cambios)
-
-git revert codCommit ()
-
+git reset codCommit (borra commitsDelante pero mantiene cambios en archivos no en staging)
+git reset --soft codCommit (borra commitsDelante pero, mantine los cambios en staging)
+git reset --hard codCommit (borra commitsDelante y sus cambios )
+git revert codCommit (desace lo hecho en codCommit,osea va al anterior de ese, y hace commit de eso)
+git revert abort (para abordar el anterios comando, usado cuando salen conflictos)
 git checkout (recueperar codigo que no queria eliminar)
-gi ¡t show (muestra infirmacion un commit )
+gi show codCommit (muestra lo que se hizo en este commit )
+git reflog && git reset (para volver si eliminamos todos los commits)

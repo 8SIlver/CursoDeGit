@@ -62,15 +62,15 @@ Clase 6
 Conclusion: Git es commits y ramas entonces debes manejar buenas practicas en commits y ramas
 
 Clase 7
-Desacer cambios .- Cuando queremos Volver Atraz por un error, u otros.
-
-*Comados destructivos, afecta a los comits.
-*No destructivos, no afecta historial de los commits.
-
-
-git revase se usa para esto.
-
-
-Comandos para desacer
-git reset destructivo
-git revert no destrucctivo
+-Desacer cambios .- Sucede por diferentes razones, un error en algo,para retroceder, etc.
+Hay 2 tipos:
+      Comados destructivos, afecta a historial de los comits.
+      No destructivos, trabajan sobre el historial de los commits sin afectarlo.
+Y tenemos 3 comandos para esto:
+'Destructivos'
+Ej. git reset hay 2: 
+      soft, elimina el commit pero mantine cambios que e hecho en ese commit
+      hard, lo mismo que el anterio, pero los cambios los elimina/descarta
+'No destructivos'       
+Ej. git revert, revierte cambios que hizo un commit, y crea uno nuevo con los cambios revertidos 
+Ej. git checkout, permite recuperar codigo especifico de commits        
