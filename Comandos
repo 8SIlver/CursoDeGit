@@ -60,3 +60,6 @@ git revert abort (para abordar el anterios comando, usado cuando salen conflicto
 git checkout (recueperar codigo que no queria eliminar)
 gi show codCommit (muestra lo que se hizo en este commit )
 git reflog && git reset (para volver si eliminamos todos los commits)
+
+Clase 8 
+git config --global alias.st alias.st status (para hacer alias de comandos)

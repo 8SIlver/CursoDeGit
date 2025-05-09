@@ -73,4 +73,25 @@ Ej. git reset hay 2:
       hard, lo mismo que el anterio, pero los cambios los elimina/descarta
 'No destructivos'       
 Ej. git revert, revierte cambios que hizo un commit, y crea uno nuevo con los cambios revertidos 
-Ej. git checkout, permite recuperar codigo especifico de commits        
+Ej. git checkout, permite recuperar codigo especifico de commits   
+
+Clase 8
+-Hooks, Alias y trucos de Git
+
+Hook .- Es un scrip que se ejecuta automaticamente, cuando ocurren ciertos eventos en un repo. estos se encuentran en la capeta de .git/hooks/ del repo, y permite automatizar tareas. 
+Hay unos tipos por ejemplo:
+    los del lado del cliente .- pre-commit , pre-push, post-commit, commit-msg, y otros qeu tu puedes crear...
+    los del lado del servidor .- pre-receive, update, post-receive,...
+
+Alias .- Es una forma de crear un comando personalizado o atajo para comandos largos o complejos, permite hacer uno mas corto en lugar del completo. Ej. git status /a/ git st
+Esto se hace agregando un alias a la configuracion de Git:
+git config --global alias.st alias.st status
+
+Trucos de Git : Guarda tus cambios temporalmente - git stash   
+                Aplicar cambios de commits en especifico - git cherry <SHA>
+                Detectar que commit introdujo el bug - git bisect
+                Rercupera un archivo en concreto de otra rama o commit - git checkout <SHA> <archivo>        
+                entre otros
+                           .
+                           .
+                           .
